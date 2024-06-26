@@ -1,0 +1,307 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .main{
+    background-image: url("images/img3.jpg");
+    height: 93vh;
+    position: inherit;
+ }
+ .main .box{
+    height: 93vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+ }
+.navbar{
+    background-image: url("logo.svg");
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+span>img{
+    height: 150px;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+    /* position: relative;
+    left: 170px;
+    bottom: 20px; */
+}
+select[type=dropdown]{
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.453);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    position: relative;
+    z-index: 10;
+    margin-left: 300px;
+}
+#signin{
+    background-color: red;
+    position: relative;
+    z-index: 10;
+    height: 35px;
+    width: 80px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+#signin:hover{
+    cursor: pointer;
+    background-color: rgb(201, 18, 18);
+}
+.mid{
+    position: relative;
+    top: 150px;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+#firstpara{
+    font-size: 52px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 7px;
+    margin-bottom: 20px;
+}
+#secondpara{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#thirdpara{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+#email{
+    height: 50px;
+    width: 25vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.351);
+    border: 1px solid rgba(255, 255, 255, 0.429);
+    border-radius: 4px;
+    padding: 3px;
+    font-size: large;
+    padding-left: 10px;
+    margin-right: 7px;
+}
+#btn{
+    background-color: red;
+    height: 50px;
+    width: 15vw;
+    color: white;
+    font-size: 23px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(201, 18, 18);
+}
+.line{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(2 2 2 / 77%);;
+}
+.submain1,.submain2, .submain3, .submain4, .submain5{
+    background-color: black;
+    color: white;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submain1 > div :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+.submain1 > div :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.submain1img1 > img{
+    height: 55vh;
+    width: 35vw;
+    position: absolute;
+    z-index: 10;
+}
+.submain1img1 > video{
+     height: 55vh;
+    width: 35vw;
+    position: relative;
+}
+.submain2img1{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+.submain2img1 > img{
+    height: 50vh;
+    width: 75vh;
+}
+.submain2 > div :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+.submain2 > div :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.submain3 > div :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+.submain3 > div :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.submain3img1 > img{
+    height: 55vh;
+    width: 35vw;
+    position: absolute;
+    z-index: 10;
+}
+.submain3img1 > video{
+    height: 45vh;
+    width: 20vw;
+    position: relative;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+.submain4img1{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+.submain4img1 > img{
+    height: 60vh;
+    width: 75vh;
+}
+.submain4 > div :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-bottom: 10px;
+    
+}
+.submain4 > div :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.submain5{
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+}
+.submain5 > span{
+    margin-top: -80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+.input-questions-fields{
+    display: flex;
+    flex-direction: column;
+}
+.question{
+    height: 80px;
+    width: 78vw;
+    margin-bottom: 10px;
+    background-color: rgb(45, 45, 45);
+    border: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 25px;
+}
+.question:hover{
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
+#account{
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.secondemail{
+    margin-top: 60px;
+}
+footer{
+    background-color: black;
+    height: 51vh;
+}
+.first-group{
+    color: rgba(255, 255, 255, 0.7);
+}
+.first-group > span:nth-child(1){
+    margin-left: 200px;
+    position: relative;
+    top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+table,tr,td{
+    width: 70vw;
+    height: 40px;
+    margin-top: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+table{
+    margin-left: 200px;
+}
+td > a{
+    color: rgba(255, 255, 255, 0.7);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btn{
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(201, 18, 18);
+}
+.end > span{
+    position: relative;
+    top: 70px;
+    right: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+}
